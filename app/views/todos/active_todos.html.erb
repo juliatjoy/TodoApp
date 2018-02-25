@@ -1,0 +1,8 @@
+<h1>Active Todos</h1>
+
+<%= link_to 'Todos', todos_path %>
+<%= link_to 'Completed Todos', completed_todos_todos_path %>
+<%= link_to 'New Todo', new_todo_path %>
+
+<%= render 'todos_list', todos: @todos %>
+
